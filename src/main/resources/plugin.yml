@@ -1,0 +1,17 @@
+name: BuildingMove
+version: '${project.version}'
+main: org.eatpaimon.buildingmove.BuildingMove
+api-version: '1.20'
+authors: [EatPaimon]
+commands:
+  buildingmove:
+    aliases: ["bm"]
+permissions:
+  bm.pos:
+    default: op
+  bm.cut:
+    default: op
+  bm.paste:
+    default: op
+  bm.cancel:
+    default: op
